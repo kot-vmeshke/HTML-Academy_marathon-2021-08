@@ -5,8 +5,8 @@ $font-main: 'Montserrat', sans-serif
 $font-title: 'Playfair Display', serif
 $border: 1px solid $color-coral-tree
 
-@mixin flex
+@mixin flex ($ai)
     display: flex
     flex-direction: row
     justify-content: space-between
-    align-items: center
+    align-items: $ai

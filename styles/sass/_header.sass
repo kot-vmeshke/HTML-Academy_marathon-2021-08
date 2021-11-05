@@ -1,14 +1,16 @@
 .header
   margin-top: 25px
-  padding: 16px 0
   border-top: $border
   border-bottom: $border
   &-container
-    @include flex
+    @include flex (center)
+    padding: 16px 0
+    max-width: 1200px
+    margin: 0 auto
   &-nav
     width: 100%
     &-list
-      @include flex
+      @include flex (center)
       list-style-type: none
     &-link
       font-weight: 400
