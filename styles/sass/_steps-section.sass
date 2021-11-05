@@ -1,0 +1,33 @@
+.steps-title
+    font-family: $font-title
+    font-weight: 700
+    font-size: 36px
+    line-height: 48px
+    letter-spacing: 0.02em
+    text-align: center
+    margin-bottom: 36px
+.steps-wrapper
+    @include flex (flex-start)
+    column-gap: 20px
+.step
+    padding-top: 60px
+    max-width: calc( (100% - 60px) / 4 )
+    &-title
+        margin-bottom: 8px
+        font-weight: 500
+        font-size: 16px
+        line-height: 20px
+        text-align: center
+    &-description
+        font-weight: 400
+        font-size: 16px
+        line-height: 20px
+        text-align: center
+.order
+    background: url("../../img/order.svg") no-repeat top center
+.details
+    background: url("../../img/details.svg") no-repeat top center
+.payment
+    background: url("../../img/payment.svg") no-repeat top center
+.step-delivery
+    background: url("../../img/delivery-icon.svg") no-repeat top center

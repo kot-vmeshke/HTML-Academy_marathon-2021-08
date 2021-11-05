@@ -241,7 +241,7 @@
 
 .button-wrapper {
   width: 120px;
-  margin: 24px auto;
+  margin: 24px auto 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -342,5 +342,199 @@
 
 .selection {
   background: url("../../img/selection-bouquet.jpg") no-repeat center/cover;
+}
+
+.sale-container {
+  background: #AE7C78 url(../../img/sale-background.jpg) no-repeat;
+  background-position: top right;
+  margin: 40px auto;
+  padding: 40px 100px;
+}
+
+.sale-title {
+  max-width: 360px;
+  margin-bottom: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.sale-description {
+  max-width: 380px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.steps-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.steps-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.step {
+  padding-top: 60px;
+  max-width: calc( (100% - 60px) / 4);
+}
+
+.step-title {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.step-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.order {
+  background: url("../../img/order.svg") no-repeat top center;
+}
+
+.details {
+  background: url("../../img/details.svg") no-repeat top center;
+}
+
+.payment {
+  background: url("../../img/payment.svg") no-repeat top center;
+}
+
+.step-delivery {
+  background: url("../../img/delivery-icon.svg") no-repeat top center;
+}
+
+.news-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.news-content-wrapper {
+  max-width: 380px;
+  margin-right: 130px;
+}
+
+.news-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.news-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 40px 0;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  max-width: 115px;
+}
+
+.instagram {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url("../../img/instagram_icon.svg") no-repeat center;
+}
+
+.facebook {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url("../../img/facebook_icon.svg") no-repeat center;
+}
+
+.twitter {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url("../../img/twitter_icon.svg") no-repeat center;
+}
+
+.news-img-wrapper {
+  max-width: 695px;
+  height: 460px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 20px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,44 @@
+.news-container
+    @include flex (center)
+    justify-content: flex-start
+.news-content-wrapper
+    max-width: 380px
+    margin-right: 130px
+.news-title
+    font-family: $font-title
+    font-weight: 700
+    font-size: 36px
+    line-height: 48px
+    letter-spacing: 0.02em
+.news-text
+    font-weight: 400
+    font-size: 24px
+    line-height: 29px
+    margin: 40px 0
+.socials
+    @include flex (center)
+    column-gap: 20px
+    max-width: 115px
+.instagram
+    display: block
+    width: 25px
+    height: 25px
+    background: url("../../img/instagram_icon.svg") no-repeat center
+.facebook
+    display: block
+    width: 25px
+    height: 25px
+    background: url("../../img/facebook_icon.svg") no-repeat center
+.twitter
+    display: block
+    width: 25px
+    height: 25px
+    background: url("../../img/twitter_icon.svg") no-repeat center
+.news-img-wrapper
+    max-width: 695px
+    height: 460px
+    @include flex (flex-start)
+    flex-direction: column
+    flex-wrap: wrap
+    row-gap: 20px
+    column-gap: 20px
