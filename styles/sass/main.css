@@ -66,6 +66,10 @@
   line-height: 20px;
 }
 
+.header-nav-link:hover {
+  color: #D89999;
+}
+
 .main-container {
   padding-top: 80px;
   display: -webkit-box;
@@ -263,6 +267,7 @@
   height: 15px;
   border: none;
   background: url("../../img/arrow-left.svg") no-repeat center;
+  cursor: pointer;
 }
 
 .button-wrapper .arrow-right {
@@ -271,6 +276,7 @@
   height: 15px;
   border: none;
   background: url("../../img/arrow-right.svg") no-repeat center;
+  cursor: pointer;
 }
 
 .catalog-container {
@@ -633,5 +639,76 @@
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 32px;
+}
+
+.main-footer {
+  background-color: #AE7C78;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 0 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-nav {
+  margin: 0 70px;
+}
+
+.footer-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+.footer-nav-item {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.footer-nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer-nav-link:hover {
+  color: #D89999;
+}
+
+.footer-socials > a {
+  -webkit-filter: brightness(200%);
+          filter: brightness(200%);
+}
+
+.footer-socials > a:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,27 @@
+.main-footer
+    background-color: $color-coral-tree
+.footer-container
+    max-width: 1200px
+    margin: 0 auto
+    padding: 25px 0 40px 0
+    @include flex (center)
+.footer-nav
+    margin: 0 70px
+    &-list
+        @include flex (center)
+        list-style-type: none
+    &-item
+        display: inline-block
+        margin: 0 30px
+    &-link
+        text-decoration: none
+        color: $color-white
+        font-weight: 400
+        font-size: 16px
+        line-height: 20px
+        &:hover
+            color: $color-can-can
+.footer-socials > a
+    filter: brightness(200%)
+    &:hover
+        filter: brightness(100%)
